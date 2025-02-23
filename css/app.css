@@ -583,7 +583,7 @@ section {
 # Interests
 --------------------------------------------------------------*/
 .interests .icon-box {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     padding: 20px;
     background: rgba(150, 150, 150, 20%);
@@ -758,9 +758,13 @@ section {
 .projects .icon-box {
     text-align: center;
     background: rgba(204, 204, 204, 0.1);
-    padding: 80px 20px;
+    padding: 20px 20px;
     transition: all ease-in-out 0.3s;
 }
+
+    .projects .icon-box img {
+        max-width: 100%;
+    }
 
     .projects .icon-box .icon {
         margin: 0 auto;
