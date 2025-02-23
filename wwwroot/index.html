@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Himadri Info Solution</title>
+    <base href="/" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700|Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap.icons.css" />
+    <link rel="stylesheet" href="vendor/boxicons/css/boxicons.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="HimadriInfoSolution.styles.css" rel="stylesheet" />
+    <script type="text/javascript">
+        // Setting global DotNetReference object to call instance methods from javascript.
+        // It is called from BasePage.
+        SetDotnetReference = (dotNetHelper) => {
+            window.DotNetReference = dotNetHelper;
+        };
+    </script>
+</head>
+
+<body>
+    <div id="app">
+        <!--<svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>-->
+        <div class="splash-screen">
+            <div class="splash-container">
+                <img class="splash-img" src="/images/loading-water.gif" />
+                <p class="splash-message">
+                    <strong>Site</strong> is loading ...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+
+    <!--<script src="js/glightbox.min.js"></script>-->
+    <!--<script src="js/swiper-bundle.min.js"></script>-->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
