@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "HimadriInfoSolution",
   "resources": {
-    "hash": "sha256-xyuSE5VxXx+PgT2o8ZX1dXMN6rnnufxtOxlp2cJubQ0=",
+    "hash": "sha256-lqpJ+1VT0s9Cb6RuBOc/+KVMDYQPWgd26eAGNQtQ0Og=",
     "jsModuleNative": {
       "dotnet.native.8.0.13.f1wj86lvfk.js": "sha256-xNQsYHtL1vcbrVTHDZAwJM4WovpoyjsrM2C6FQ8cW1w="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "HimadriInfoSolution.wasm": "sha256-uYPdYetM9c78aQp/wRbQAyJmJgPBJQsXdq+Ho75SB1U=",
+      "HimadriInfoSolution.wasm": "sha256-ICqZJFJeRnOdeDaztIV1bxwLtp/DQCYq1A0MHuGXC6E=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-B+efp/Yg7b2PuOvlSNnA5Cfrby+2I/cXHCDqEzWs22s=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-8r8ToLkCSNsqgw5mNVFGgRxXSMiQI3ei/VRewMtTe48=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-5gllNVFPVIkjXOLn6p8Hid+53EdSD0D7D0d97XEFdK4=",
